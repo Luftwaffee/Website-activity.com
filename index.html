@@ -1,0 +1,224 @@
+<!--
+
+<html lang="en"> - is part of the opening tag of the HTML element and is used to specify the language of the document. In this case, "en" represents English.
+
+
+ <meta http-equiv="X-UA-Compatible" content="IE-edge"> - meta tag is used to set the document mode and rendering engine compatibility for Internet Explorer.
+
+
+
+<div id="header"></div> - the <div> element with the id attribute set to "header" creates a division or container in HTML with the identifier "header." The id attribute provides a unique identifier for the element, allowing you to target it specifically with CSS or JavaScript.
+
+
+<nav></nav> -  element in HTML is used to define a section of navigation links on a webpage. It is a semantic HTML5 element that helps provide better structure and meaning to the content of a webpage.
+
+
+
+
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+         
+<head>
+         <meta charset="utf-8"> 
+         <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+         <title>This is a website </title>
+         <link rel="stylesheet" href="style.css">
+         <script src="https://kit.fontawesome.com/b9f62b533e.js" crossorigin="anonymous"></script>
+</head>
+         
+<body>
+<div id="header">
+         <div class="container">
+                  <nav>
+                           
+                           <img src="images/rsz_1logo-stray.png" class="logo">
+                           <ul>
+                           
+                                    <li><a href="#header">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    
+                           
+                           </ul>
+                           
+                  </nav>
+                  <div class="header-text">
+                           <h6>idunno what to write here yet</h6>
+                  </div>
+         </div>
+</div>
+         
+         
+         
+         
+<!--------------------------------------------------ABOUT------------------------------------------------------->   
+         
+         
+         
+         
+<div id="about">
+         <div class="container">
+                  <div class="row">
+                           <div class="about-col-1">
+                                    <img src="images/man.jpg">
+                           </div>
+                           <div class="about-col-2">
+                                    <h1 class="subtitle">About Me</h1>
+                                    <br>
+                                    <p>I'm the creator of this website, a third-year BSCS (Bachelor of Science in Computer Science) student with a passion for both the digital and real-world realms. When I'm not immersed in coding challenges or diving into the fascinating world of algorithms, you'll likely find me on the field, indulging in my love for playing games or on outdoor doing outdoor activities.
+                                        Beyond the code and the games, I have a soft spot for the virtual world, especially on YouTube. Exploring new content, from tech tutorials to gaming highlights, is my go-to for both entertainment and learning. And let's not forget the power of music – whether it's setting the coding vibe or just unwinding, I always have a playlist ready for every mood.</p>
+                                    
+                                    <div class="tab-titles">
+                                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                             <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                                             <p class="tab-links" onclick="opentab('education')">Education</p>
+                                    </div>
+                                    <div class="tab-contents active-tab" id="skills">
+                                             <ul>
+                                                      <li><span>Optimistic</span><br>involves focusing on opportunities rather than obstacles.</li>
+                                                      <li><span>Digital Literacy</span><br>to use and navigate digital tools and technologies.</li>
+                                                      <li><span>Athletic</span><br>excels in sports, disciplined fitness, embraces a healthy lifestyle.</li>
+                                             </ul>
+                                    </div>
+                                    
+                                    <div class="tab-contents" id="hobbies">
+                                             <ul>
+                                                      <li><span>Music</span><br>Listening to music.</li>
+                                                      <li><span>Outdoor activity</span><br>Loves to travel around using bicycle.</li>
+                                                      <li><span>Games</span><br>Playing mobile games etc.</li>
+                                             </ul>
+                                    </div>
+                                    
+                                    <div class="tab-contents" id="education">
+                                             <ul>
+                                                      <li><span>2018</span><br>Completion of Secondary Education.</li>
+                                                      <li><span>2012</span><br>Completion of Primary Education.</li>
+                                             </ul>
+                                    </div>
+                           </div>
+                  </div>
+         </div>
+</div>
+<!-------------------OTHERACTIVITIES-------------------------------------------------------------------------------->
+<div id="portfolio">
+         <div class="container">
+                  <h1 class="subtitle">My mostly go to when doing nothing</h1>
+                  <div class="hobby">
+                           <div class="mlbb">
+                                    <img src="images/rsz_1mlbb_patch1820_preview.jpg">
+                                    <div class="layer">
+                                             <h3>Mobile Legends</h3>
+                                             <p>a mobile multiplayer online battle arena game developed and published by Moonton</p>
+                                             <a href="https://m.mobilelegends.com/en"target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                    </div>
+                           </div>
+                           
+                           <div class="mlbb">
+                                    <img src="images/rsz_youtube-handle.jpg">
+                                    <div class="layer">
+                                             <h3>Youtube</h3>
+                                             <p>YouTube is an American online video sharing and social media platform</p>
+                                             <a href="https://www.youtube.com/"target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                    </div>
+                           </div>
+                           
+                           <div class="mlbb">
+                                    <img src="images/rsz_1youtube-music-history-1.jpg">
+                                    <div class="layer">
+                                             <h3>Youtube Music</h3>
+                                             <p>YouTube Music is a music streaming service developed by the American video platform YouTube</p>
+                                             <a href="https://music.youtube.com/"target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                    </div>
+                           </div>
+                  </div>
+                  <!--<a href="#" class="btn">See more</a>-->
+         </div>
+</div>
+
+<!-----------------------CONTACTS------------------------------------------------------------------------------------------------------------>
+<div id="contact">
+         <div class="container">
+                  <div class="row">
+                           <div class="contact-left">
+                                    <h1 class="subtitle">Contact Me</h1>
+                                    <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                                    <p><i class="fa-solid fa-square-phone"></i> 09397943269</p>
+                                    <div class="social-icons">
+                                             <a href="https://www.facebook.com/wsadaosp"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                             <a href="https://m.me/wsadaosp"target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
+                                    </div>
+                                    <!----<a href="#" class="btn"></a>--->
+                           </div>
+                           <div class="contact-right">
+                                    <form name="submit-to-google-sheet">
+                                             <input type="text" name="Name" placeholder="Your Name" required>
+                                             <input type="email" name="Email" placeholder="Your Email" required>
+                                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                             <button type="submit" class=" btn btn2">Submit</button>
+                                    </form>
+                                    <span id="msg"></span>
+                           </div>
+                  </div>
+         </div>
+</div>   
+         
+         
+         
+         
+         
+         
+         
+<script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+         
+         function opentab(tabname){
+                  for(tablink of tablinks){
+                      tablink.classList.remove("active-link"); 
+                  }
+                  
+                  for(tabcontent of tabcontents){
+                      tabcontent.classList.remove("active-tab"); 
+                  }
+                  event.currentTarget.classList.add("active-link");
+                  document.getElementById(tabname).classList.add("active-tab");
+         }
+</script>         
+      
+<script>
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbynE2Gv_6JPLhQ9LUM-p0qHWassx_jKkk1FbpSU5ofFe9PIaUqkIjHrds7HU0uBF3Jkhw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent sucessfully"
+          setTimeout(function(){
+              msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+</body>         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+</html>
